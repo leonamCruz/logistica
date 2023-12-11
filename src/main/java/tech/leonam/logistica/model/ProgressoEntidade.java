@@ -13,7 +13,7 @@ import lombok.Setter;
 public class ProgressoEntidade{
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private Long id;
     private String dataHoraCadastro;
     private String dataHoraUltimaAtualizacao;
     private boolean recebimentoDocumento;
